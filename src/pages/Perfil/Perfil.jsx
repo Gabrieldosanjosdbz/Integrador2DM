@@ -1,5 +1,5 @@
 import "./perfil.css"
-import perfil from '../../img/Icons/perfil.svg'
+import perfil from "../../img/Icons/perfil.svg"
 import deleteicon from "../../img/Icons/TrashCan.png"
 import {Link} from "react-router-dom"
 import editicon from "../../img/Icons/Pencil.svg"
@@ -7,7 +7,7 @@ import editicon from "../../img/Icons/Pencil.svg"
 const Perfil = () => {
   return (
     <div className="Perfil">
-      <div className='divPerfil'>
+      <div className="divPerfil">
         <div className="perfilFuncoes">
           <Link className="linkPerfil" to="/">
             <img className="perfilIcon" src={perfil}/>
@@ -27,7 +27,7 @@ const Perfil = () => {
 
               <Link className="linkEditarPessoais">  
                 <img className="editIcon" src={editicon}/>
-                <p className="fonte-editar">Editar</p>
+                <p className="fonte-subtitulos">Editar</p>
               </Link>
             </div>
             
@@ -58,11 +58,11 @@ const Perfil = () => {
 
           <div className="info2">
             <div className="topinfo">
-              <p className="fonte-05">Seu Plano</p>
+              <p className="fonte-06">Seu Plano</p>
 
               <Link className="linkEditarPessoais">  
                 <img className="editIcon" src={editicon}/>
-                <p className="fonte-editar">Editar</p>
+                <p className="fonte-subtitulos">Editar</p>
               </Link>
             </div>
 
@@ -72,13 +72,13 @@ const Perfil = () => {
               <p className="fonte-plano">Bronze</p>
               </div>
 
-              <div>
+              <div className="divValor">
               <p className="fonte-05">Valor</p>
-              <p className="fonte-preco">R$55,90</p>
+              <p className="fonte-05">R$55,90</p>
               </div>
             </div>
 
-            <div className="planoinfo2">
+            <div>
               <div>
                 <p className="fonte-subtitulos">Benefícios</p>
                 <ul className="beneficioslista">
@@ -89,7 +89,6 @@ const Perfil = () => {
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>
