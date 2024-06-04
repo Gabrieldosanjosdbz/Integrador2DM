@@ -637,6 +637,8 @@ hr{
     
     .beneficioslista{
        margin-left: 4vw;
+       list-style: none;
+       text-align: justify;
     }
     
     hr{
@@ -733,6 +735,8 @@ hr{
     
     .beneficioslista{
        margin-left: 4vw;
+       list-style: none;
+       text-align: justify;
     }
     
     hr{
